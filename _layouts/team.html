@@ -1,0 +1,32 @@
+---
+layout: home
+---
+<div class="main" role="main">
+  <div class="primary interior">
+    <div class="row">
+    <div class="small-12 columns">
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </div>
+    <!-- /.small-12 columns -->
+    </div>
+    <!-- /.row -->
+
+    <div class="team" data-ui="team-list">
+      <div class="row">
+        <div class="small-12 columns">
+          <h3>The Ad Hoc Team</h3>
+
+          {% for member in site.team %}
+            {{member.title}}
+          {% endfor %}
+        </div>
+        <!-- /.small-12 columns -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.team -->
+  </div>
+  <!-- /.primary.interior -->
+</div>
+<!-- /.main -->
