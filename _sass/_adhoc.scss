@@ -40,7 +40,17 @@ abbr {
   color: inherit;
 }
 
-// Logo and Header
+/*doc
+---
+title: Header
+name: header
+category: components
+---
+```html_example
+<div class="header" role="header">
+</div>
+```
+*/
 
 .header {
   width: 100%;
