@@ -13,6 +13,8 @@ exclude:
   - Gemfile.lock
   - CNAME
   - Makefile
+  - code_example_templates
+  - doc_assets
 
 #posts per page
 paginate: 1
