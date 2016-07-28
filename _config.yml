@@ -19,7 +19,7 @@ exclude:
   - tests
 
 #posts per page
-paginate: 1
+# paginate:
 
 #number of items in RSS feed
 rss_limit: 20
